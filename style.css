@@ -1,0 +1,19 @@
+body {
+  font-size: 62.5%;
+}
+
+.bar-chart {
+  display: grid;
+  grid-template-columns: repeat(40, 1fr);
+  column-gap: 0px;
+  margin-top: 30rem;
+  padding: 0;
+  transform: rotate(180deg);
+}
+.column {
+  border-color: black;
+  border-style: solid;
+  width: 20px;
+
+  background-color: rgb(57, 179, 61);
+}
