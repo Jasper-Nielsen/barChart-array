@@ -1,14 +1,20 @@
 body {
   font-size: 62.5%;
+  overflow: hidden;
 }
 
-.bar-chart {
+#bar-chart {
+    
   display: grid;
   grid-template-columns: repeat(40, 1fr);
   column-gap: 0px;
   margin-top: 30rem;
   padding: 0;
+  position: absolute;
+ 
   transform: rotate(180deg);
+  /* rotates the chart on its x axis to keep orientation of columns */
+  transform: rotateX(180deg);
 }
 .column {
   border-color: black;
